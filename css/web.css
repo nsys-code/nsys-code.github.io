@@ -1,0 +1,53 @@
+html {
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+    font-weight: 400;
+}
+
+pre {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+pre:before {
+    content: "$ ";
+    color: #999;
+}
+
+.content {
+    width: 650px;
+    margin: 0 auto;
+    padding-top: 80px;
+    color: #444;
+}
+
+a, a:visited {
+    color: #c00;
+}
+
+.content p {
+    font-weight: 200;
+}
+
+/* The default background color is #c00 */
+.github-fork-ribbon.right-bottom:before {
+    background-color: #090;
+}
+
+.github-fork-ribbon.right-top:before {
+    background-color: #f80;
+}
+
+.github-fork-ribbon.right-top-green:before {
+    background-color: #090;
+}
+
+.github-fork-ribbon.left-bottom:before {
+    background-color: #333;
+}

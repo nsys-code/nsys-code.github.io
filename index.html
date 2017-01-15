@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nsys Platform Code</title>
+
+    <link rel="stylesheet" href="https://oss.maxcdn.com/libs/normalize-css/3.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/web.css">
+    <link rel="stylesheet" href="css/gh-fork-ribbon.css">
+
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="css/gh-fork-ribbon.ie.css">
+    <![endif]-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Nsys, Nsys Framework, Nsys Platform, Nsys Framework Infrastructure, Nsys Terminal, Nsys Daemon, Nsys Portal, Nsys Cloud Warehouse, Nsys Connect, Nsys Workload Scheduler, Cloud Computing, Big Data, SaaS, IaaS, PaaS, Distributed Systems" />
+
+    <!-- Google Analytics Tracking Code [BEGIN] -->
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-42918969-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- Google Analytics Tracking Code [END] -->
+</head>
+<body>
+    <a class="github-fork-ribbon right-top-green"
+       href="https://github.com/nsys-code"
+       title="Fork me on GitHub"
+       target="_new">Fork me on GitHub</a>
+
+    <div class="content">
+        <h1>Nsys Platform Code</h1>
+        <p>
+            Cloud-based operating system for distributed applications.<br/>
+            <br/>
+            <img src="images/nsys_logo.jpg" width="100%" />
+        </p>
+        <br/>
+        <h2>How to install Nsys Platform on Unix/Linux</h2>
+        <p>
+            You can install the <a href="https://nsys.org" target="_new">Nsys</a> via script
+            <a href="https://github.com/nsys-code/nsys-scripts/tree/master/nsys" target="_new">nsys-installer.sh</a>
+        </p>
+        <pre>curl -sSL https://raw.githubusercontent.com/nsys-code/nsys-scripts/master/nsys/nsys-installer.sh | bash</pre>
+        <p>
+            For more examples how to install Nsys Platform see
+            <a href="https://github.com/nsys-code/nsys-scripts/blob/master/nsys" target="_new">this page</a>.
+        </p>
+        <br/>
+        <h2>Using with Docker</h2>
+        <p>
+            Nsys Platform (Nsys Portal)
+        </p>
+        <pre>docker run -it --rm -p 9060:9060 nsys/nsys</pre>
+        <p>
+            For more details about Docker image
+            <a href="https://hub.docker.com/r/nsys/nsys" target="_new">nsys/nsys</a> see
+            <a href="https://github.com/nsys-code/nsys-docker-library/blob/master/nsys" target="_new">this page</a>.
+        </p>
+        <br/>
+        <p>
+            Nsys Platform (Nsys Node)
+        </p>
+        <pre>docker run -it --rm -p 9080:9080 nsys/nsys-node</pre>
+        <p>
+            For more details about Docker image
+            <a href="https://hub.docker.com/r/nsys/nsys-node" target="_new">nsys/nsys-node</a> see
+            <a href="https://github.com/nsys-code/nsys-docker-library/blob/master/nsys-node" target="_new">this page</a>.
+        </p>
+        <br/>
+        <h2>Development - GitHub</h2>
+        <p>
+            Developers and community members are encouraged to use
+            <a href="https://github.com/nsys-code" target="_new">github.com/nsys-code</a>
+            as their repository for development related to the Nsys Platform.
+        </p>
+        <br/>
+        <h2>Communication - Slack</h2>
+        <p>
+            Developers and community members are encouraged to use
+            <a href="https://nsysorg.slack.com" target="_new">nsysorg.slack.com</a>
+            as the primary communication channel.
+        </p>
+        <br/>
+        <h2>#Nsys</h2>
+        <p>
+            <a class="twitter-timeline"
+               href="https://twitter.com/nsys_org"
+               data-width="650"
+               data-height="500">Tweets by nsys_org</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </p>
+        <h2>About</h2>
+        <p>
+            The <a href="https://nsys.org" target="_new">Nsys Platform</a> was created by
+            <a href="https://tomas.hrdlicka.co.uk" target="_new">Tomas Hrdlicka</a>.
+        </p>
+            &nbsp;<br/>
+            &copy 2017<br/>
+            &nbsp;<br/>
+        </p>
+    </div>
+</body>
+</html>
